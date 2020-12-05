@@ -32,6 +32,16 @@ barchartGC(~infected + treatment,data=guysData, type="percent")
 
 According to the graph it looks as like the drug is not effective for the guys, it appears to not be helping the guys from contracting covid. More people who took the drug got covid than those who took the placebo.
 
+### Numerical Summaries for guys
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=guysData)
+rowPerc(table1)
+colPerc(table1)
+```
+
+It appear that 58% of the people that got infected took the drug, and 42% had taken the placebo.
+
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
 # Gals
