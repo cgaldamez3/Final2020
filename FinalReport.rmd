@@ -64,6 +64,13 @@ It appears the drug is working about the same for the drug users as it did for t
 ```{r}
 lgbtqData <-filter(FinalData,LGBTQ=="gay")
 ```
+```{r}
+barchartGC(~infected + treatment,data=lgbtqData)
+barchartGC(~infected + treatment,data=lgbtqData, type="percent")
+
+```
+
+In this graph it appears that the drug is not at all effetive for the LGBTQ community. More than twice the number of people who took the drug than the placebo got sick with covid.
 
 # Discussion and Conclusion
 
