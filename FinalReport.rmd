@@ -30,7 +30,7 @@ barchartGC(~infected + treatment,data=guysData, type="percent")
 
 ```
 
-According to the graph it looks as like the drug is not effective for the guys, it appears to not be helping the guys from contracting covid. More people who took the drug got covid than those who took the placebo.
+According to the graph it looks like the drug is not effective for the guys, it appears to not be helping the guys from contracting covid. More people who took the drug got covid than those who took the placebo.
 
 ### Numerical Summaries for guys
 
@@ -153,5 +153,7 @@ fisher.test(table1)
 If you belong to the LGBTQ community, the chances of getting infected if taking the drug are 2.5:1.
 
 # Discussion and Conclusion
+
+If you are a guy I would recommend that you not take the vaccine because your chances of getting covid are increased by 58%. For a gal I would recommend taking the vaccine because the chances of getting covid is slightly decreased. If you're a drug user I would also recommend taking the vaccine because like the gals the chances of getting covid is decreased with those who took the drug 36% getting sick. In the LGBTQ community I would recommend not taking the vaccine because the odds of getting covid is greatly increased by a high percentage of 71%.
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
